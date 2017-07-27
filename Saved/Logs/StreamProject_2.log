@@ -1,0 +1,245 @@
+﻿Log file open, 07/27/17 15:09:46
+LogInit:Display: Running engine for game: StreamProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1222179620) SRandInit(-1222179620).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.085809
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.39
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.27-06.09.47:572][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-06.09.47:572][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-06.09.47:580][  0]LogInit: Computer: PARKCOM
+[2017.07.27-06.09.47:580][  0]LogInit: User: parkcom
+[2017.07.27-06.09.47:580][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.27-06.09.47:580][  0]LogInit: High frequency timer resolution =3.507558 MHz
+[2017.07.27-06.09.47:581][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.07.27-06.09.47:581][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-06.09.47:581][  0]LogMemory: Process Physical Memory: 276.95 MB used, 276.95 MB peak
+[2017.07.27-06.09.47:581][  0]LogMemory: Process Virtual Memory: 263.95 MB used, 263.95 MB peak
+[2017.07.27-06.09.47:581][  0]LogMemory: Physical Memory: 9221.36 MB used,  7117.80 MB free, 16339.16 MB total
+[2017.07.27-06.09.47:581][  0]LogMemory: Virtual Memory: 624.89 MB used,  7117.80 MB free, 8388608.00 MB total
+[2017.07.27-06.09.47:678][  0]LogInit: Using OS detected language (ko-KR).
+[2017.07.27-06.09.47:678][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.07.27-06.09.47:681][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.07.27-06.09.48:425][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-06.09.48:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650 Ti' (Feature Level 11_0)
+[2017.07.27-06.09.48:445][  0]LogD3D11RHI:       971/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.27-06.09.48:445][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.27-06.09.48:450][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-06.09.48:450][  0]LogD3D11RHI:     GPU DeviceId: 0x11c6 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-06.09.48:450][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-06.09.48:450][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650 Ti' (P:1 D:1)
+[2017.07.27-06.09.48:450][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:1)
+[2017.07.27-06.09.48:451][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650 Ti' (P:0 D:0)
+[2017.07.27-06.09.48:451][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.07.27-06.09.48:451][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.07.27-06.09.48:451][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.07.27-06.09.48:451][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.07.27-06.09.48:451][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650 Ti
+[2017.07.27-06.09.48:451][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.07.27-06.09.48:451][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.07.27-06.09.48:451][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2017.07.27-06.09.48:459][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-06.09.48:473][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.27-06.09.48:474][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2017.07.27-06.09.48:475][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Intermediate/Shaders/WorkingDirectory/21088/).
+[2017.07.27-06.09.48:475][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/parkcom/AppData/Local/Temp/UnrealShaderWorkingDir/DE5FA45E4479CDFC54233A842D655A4F/'.
+[2017.07.27-06.09.48:475][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-06.09.49:467][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-06.09.49:539][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-06.09.49:611][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-06.09.49:683][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-06.09.49:753][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-06.09.49:824][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-06.09.49:895][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-06.09.49:967][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-06.09.50:033][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-06.09.50:103][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-06.09.50:175][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-06.09.50:249][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-06.09.50:318][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-06.09.50:388][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-06.09.50:458][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-06.09.50:600][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-06.09.50:600][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-06.09.50:660][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-06.09.50:782][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-06.09.50:819][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-06.09.50:888][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-06.09.50:957][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-06.09.51:028][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-06.09.51:099][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-06.09.51:099][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-06.09.51:786][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/parkcom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/parkcom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-06.09.51:865][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-06.09.51:881][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-06.09.51:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/parkcom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-06.09.51:901][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-06.09.51:902][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-06.09.51:902][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-06.09.51:902][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-06.09.52:245][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-06.09.52:248][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-06.09.52:521][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-06.09.52:588][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-06.09.52:658][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-06.09.52:658][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-06.09.52:658][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-06.09.53:185][  0]LogNetVersion: StreamProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 111757165)
+[2017.07.27-06.09.53:253][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2017.07.27-06.09.53:316][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.031853 seconds
+[2017.07.27-06.09.53:320][  0]LogUObjectArray: 34201 objects as part of root set at end of initial load.
+[2017.07.27-06.09.53:320][  0]LogUObjectAllocator: 7474144 out of 0 bytes used by permanent object pool.
+[2017.07.27-06.09.53:320][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-06.09.56:367][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-06.09.56:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-06.09.57:232][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-06.09.57:806][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.09.57:827][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.09.57:900][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.09.57:972][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.09.58:352][  0]LogLinker:Warning: '/Game/VehicleBP/VehicleOverview' 파일을 찾을 수 없습니다.
+[2017.07.27-06.09.58:352][  0]LogLinker:Warning: '/Game/VehicleBP/VehicleOverview' 파일을 찾을 수 없습니다.
+[2017.07.27-06.09.58:352][  0]LogUObjectGlobals:Warning: 'Class /Game/VehicleBP/VehicleOverview.VehicleOverview_C' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.27-06.09.58:917][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-06.09.59:771][  0]LogEngine: Initializing Engine...
+[2017.07.27-06.09.59:772][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-06.09.59:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-06.09.59:962][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-06.10.00:158][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-06.10.00:172][  0]LogInit: XAudio2 using '헤드폰(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.27-06.10.00:201][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-06.10.00:240][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/parkcom/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-06.10.00:252][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-06.10.00:388][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-06.10.00:721][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-06.10.01:214][  0]BlueprintLog: New page: 에디터 로드
+[2017.07.27-06.10.02:679][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.07.27-06.10.03:718][  0]LogConsoleResponse:Display: 
+[2017.07.27-06.10.03:860][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-06.10.03:860][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-06.10.04:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/Content/' took 0.01s
+[2017.07.27-06.10.05:384][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.10.05:384][  0]Cmd: MAP LOAD FILE="../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-06.10.05:384][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.27-06.10.05:449][  0]MapCheck: New page: 맵 체크
+[2017.07.27-06.10.05:449][  0]LightingResults: New page: 라이팅 빌드
+[2017.07.27-06.10.05:747][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.27-06.10.05:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-06.10.05:758][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-06.10.05:820][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.463ms.
+[2017.07.27-06.10.05:820][  0]LogFileHelpers: Loading map 'MainMenu' took 0.436
+[2017.07.27-06.10.06:002][  0]LogCollectionManager: Loaded 0 collections in 0.002011 seconds
+[2017.07.27-06.10.06:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/Saved/Collections/' took 0.01s
+[2017.07.27-06.10.06:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Developers/parkcom/Collections/' took 0.01s
+[2017.07.27-06.10.06:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Collections/' took 0.01s
+[2017.07.27-06.10.06:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.27-06.10.06:111][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2331 classes and 494 folders.
+[2017.07.27-06.10.06:208][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-06.10.06:252][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-06.10.06:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.27-06.10.06:366][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-06.10.06:395][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Plugins/. Error: 지정된 파일을 찾을 수 없습니다. (0x00000002)
+[2017.07.27-06.10.06:452][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-06.10.06:455][  0]LogSlate: Took 0.002321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.07.27-06.10.06:456][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-06.10.06:460][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-06.10.06:538][  0]LogRenderer: Reallocating scene render targets to support 1124x640 NumSamples 1 (Frame:1).
+[2017.07.27-06.10.06:749][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.07.27-06.10.06:843][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.27-06.10.06:843][  0]LogLoad: (Engine Initialization) Total time: 21.45 seconds
+[2017.07.27-06.10.06:843][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.07.27-06.10.06:843][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.27-06.10.06:843][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.27-06.10.07:186][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-06.10.07:186][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-06.10.07:213][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-06.10.07:280][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-06.10.08:185][  3]LogAssetRegistry: Asset discovery search completed in 14.9517 seconds
+[2017.07.27-06.10.08:187][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.27-06.10.08:187][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.07.27-06.10.30:860][ 71]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.07.27-06.10.32:407][237]LogTemp: Repeting last play command: 독립형 게임
+[2017.07.27-06.10.32:504][237]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-06.10.32:604][237]LogSavePackage: Save=50.61ms
+[2017.07.27-06.10.32:604][237]LogSavePackage: Moving '../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Saved/UEDPCMainMenu7716B8C9485CAFF68098D38E00C0B478.tmp' to '../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap'
+[2017.07.27-06.10.32:606][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Saved/Autosaves/Game/Maps/UEDPCMainMenu.umap
+[2017.07.27-06.10.32:609][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_BuiltData" FILE="../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Maps/MainMenu_BuiltData.uasset" SILENT=true
+[2017.07.27-06.10.32:618][237]LogSavePackage: Save=1.84ms
+[2017.07.27-06.10.32:618][237]LogSavePackage: Moving '../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Saved/MainMenu_BuiltData547EC84F4655DEEF097955BC10BB0319.tmp' to '../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Maps/MainMenu_BuiltData.uasset'
+[2017.07.27-06.10.32:620][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Content/Maps/MainMenu_BuiltData.uasset
+[2017.07.27-06.10.32:623][237]LogEditorTransaction: Undo 여기에서 스폰 플레이 시작
+[2017.07.27-06.33.46:241][842]LogSourceControl:Error: '../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/' is not part of a Git repository
+[2017.07.27-06.34.08:548][489]SourceControl:Error: 오류 fatal: Not a git repository: 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/.git'
+[2017.07.27-06.34.08:549][489]SourceControl:Error: 오류 Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.07.27-06.34.21:295][984]LogEditorViewport: Clicking Background
+[2017.07.27-06.34.22:719][154]LogEditorViewport: Clicking Background
+[2017.07.27-06.34.24:216][333]LogEditorViewport: Clicking Background
+[2017.07.27-06.35.48:354][935]SourceControl:Error: 오류 fatal: Not a git repository: 'C:/Users/parkcom/Documents/Unreal Projects/StreamProject/.git'
+[2017.07.27-06.35.48:354][935]SourceControl:Error: 오류 Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.07.27-06.35.54:294][614]LogEditorViewport: Clicking Background
+[2017.07.27-06.36.40:792][312]LogEditorViewport: Clicking Background
+[2017.07.27-06.36.43:004][566]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.07.27-06.36.46:896][891]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.27-06.36.47:559][893]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.StreamProject
+[2017.07.27-06.36.47:559][893]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.27-06.36.47:559][893]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.07.27-06.36.47:559][893]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.07.27-06.36.47:563][893]LogTemp: BranchPath = PARKCOM/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = PARKCOM/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.07.27-06.36.47:583][894]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\parkcom\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.07.27-06.37.25:000][335]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/parkcom/Documents/Unreal Projects/StreamProject/Plugins/. Error: 지정된 파일을 찾을 수 없습니다. (0x00000002)
+[2017.07.27-06.37.38:405][917]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.07.27-06.45.48:178][  4]LogEditorViewport: Clicking Background
